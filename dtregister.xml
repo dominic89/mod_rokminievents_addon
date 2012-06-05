@@ -1,0 +1,24 @@
+<source>
+	<params>
+        <param name="@spacer" type="spacer" default="&lt;div  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;dtregister Settings&lt;/div&gt;" label="" description="" />
+        <param name="dtregister" type="list" default="1" label="ROKMINIEVENTS_DTREGISTER_LABEL_ENABLE" description="ROKMINIEVENTS_DTREGISTER_DESC_ENABLE">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+        <param name="dtregister_category" type="dtregistercategory" default="0" label="ROKMINIEVENTS_DTREGISTER_LABEL_CATEGORY" description="ROKMINIEVENTS_DTREGISTER_DESC_CATEGORY"/>
+        <param name="dtregister_total" type="text" size="4" default="10" label="ROKMINIEVENTS_DTREGISTER_LABEL_MAXRESULTS" description="ROKMINIEVENTS_DTREGISTER_DESC_MAXRESULTS" />
+		<param name="show_past_event" type="list" default="0" label="Allow Passed Events to Show" description="Choose whether or not to include passed events that are still published.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+        <param name="dtregister_dates_format" type="list" default="1" label="ROKMINIEVENTS_DTREGISTER_LABEL_DATES_FORMAT" description="ROKMINIEVENTS_DTREGISTER_DESC__DATES_FORMAT">
+			<option value="utc">UTC</option>
+			<option value="joomla">JOOMLA_TIMEZONE</option>
+		</param>
+		<param name="dtregister_links" type="list" label="ROKMINIEVENTS_DTREGISTER_LABEL_LINKTO" description="ROKMINIEVENTS_DTREGISTER_DESC_LINKTO">
+			<option value="link_no">ROKMINIEVENTS_DTREGISTER_DONTLINK</option>
+			<option value="link_internal">ROKMINIEVENTS_DTREGISTER_LINKASINTERNAL</option>
+			<option value="link_external">ROKMINIEVENTS_DTREGISTER_LINKASEXTERNAL</option>
+		</param>
+    </params>
+</source>

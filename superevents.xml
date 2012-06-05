@@ -1,0 +1,28 @@
+<source>
+	<params>
+        <param name="@spacer" type="spacer" default="&lt;div  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;superevents Settings&lt;/div&gt;" label="" description="" />
+        <param name="superevents" type="list" default="1" label="ROKMINIEVENTS_SUPEREVENTS_LABEL_ENABLE" description="ROKMINIEVENTS_SUPEREVENTS_DESC_ENABLE">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+        <param name="superevents_category" type="supereventscategory" default="0" label="ROKMINIEVENTS_SUPEREVENTS_LABEL_CATEGORY" description="ROKMINIEVENTS_SUPEREVENTS_DESC_CATEGORY"/>
+        <param name="superevents_total" type="text" size="4" default="10" label="ROKMINIEVENTS_SUPEREVENTS_LABEL_MAXRESULTS" description="ROKMINIEVENTS_SUPEREVENTS_DESC_MAXRESULTS" />
+		<!--<param name="seminar_user" type="list" default="1" label="ROKMINIEVENTS_SEMINAR_LABEL_USERREVENTS" description="ROKMINIEVENTS_SEMINAR_DESC_USERREVENTS">-->
+			<!--<option value="1">YES</option>-->
+			<!--<option value="0">NO</option>-->
+		<!--</param>-->
+		<param name="superevents_past" type="list" default="1" label="ROKMINIEVENTS_SUPEREVENTS_LABEL_PASTEVENTS" description="ROKMINIEVENTS_SUPEREVENTS_DESC_PASTEVENTS">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+        <param name="superevents_dates_format" type="list" default="1" label="ROKMINIEVENTS_SUPEREVENTS_LABEL_DATES_FORMAT" description="ROKMINIEVENTS_SUPEREVENTS_DESC__DATES_FORMAT">
+			<option value="utc">UTC</option>
+			<option value="joomla">JOOMLA_TIMEZONE</option>
+		</param>
+		<param name="superevents_links" type="list" label="ROKMINIEVENTS_SUPEREVENTS_LABEL_LINKTO" description="ROKMINIEVENTS_SUPEREVENTS_DESC_LINKTO">
+			<option value="link_no">ROKMINIEVENTS_SUPEREVENTS_DONTLINK</option>
+			<option value="link_internal">ROKMINIEVENTS_SUPEREVENTS_LINKASINTERNAL</option>
+			<option value="link_external">ROKMINIEVENTS_SUPEREVENTS_LINKASEXTERNAL</option>
+		</param>
+    </params>
+</source>
